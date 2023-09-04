@@ -2,7 +2,7 @@
 
 In this exercise, you will demonstrate how to set up a Continuous Integration pipeline using GitHub Actions for a simple full-stack application. 
 
-### Business Scenario
+### Business Scenario 
 
 Suppose you are working for a small start-up, Uda-Crafts, that sells handmade crafts. The development team has been tasked to develop a full-stack application for listing products on the website. The backend service is built with Node.js, and the frontend with basic HTML and JavaScript.
 
