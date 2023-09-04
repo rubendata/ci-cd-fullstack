@@ -37,13 +37,13 @@ jobs:
         working-directory: backend
 
       # Run the linter.
-        name: run linter
-      - run: run lint
+      - name: run linter
+        run: npm run lint
         working-directory: backend
 
      # Send a console message at completion.
       - name: Completion Message
-      - run: |
+        run: |
           echo "Hello ${{github.actor}}. You pushed to ${{github.repository}} at $(date)."
 
         
